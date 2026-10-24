@@ -50,8 +50,6 @@ ACTScope_final/
 
 ## Supporting Evidence
 
-[Open the gallery](evidence/index.html) for video playback and full-size images.
-
 <div style="overflow-x:auto;max-width:100%" tabindex="0" role="region" aria-label="Supporting evidence table">
 <table style="min-width:1360px;table-layout:fixed;border-collapse:collapse" border="1">
 <caption>Scroll horizontally to view all items.</caption>
