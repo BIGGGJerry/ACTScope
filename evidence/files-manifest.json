@@ -9,17 +9,17 @@
       "finding": "F1 — Insecure Installation Artifact Handling",
       "kind": "video",
       "title": "1. Installation hijacking (F1)",
-      "file": "videos/appgellery_hijack.mov",
+      "file": "videos/appgellery_hijack_silent.mov",
       "status": "provided",
-      "size_bytes": 27330898,
-      "sha256": "c12c7e99b5e0e29049ec57f097667d574f037000488f57a7a2c10bb1d4c76569",
+      "size_bytes": 26289381,
+      "sha256": "250391b32b97c17182c0c5cfd3df098e0dd2bfc1c783f8a5697fad07686ccf4f",
       "capture_date": null,
       "playback": {
-        "file": "videos/appgellery_hijack.mp4",
+        "file": "videos/appgellery_hijack_silent.mp4",
         "status": "provided",
-        "sha256": "8abca95f6fe8a1921755386876cadd5a8869cceaf4ab75bf33e121b098aa1810",
-        "size_bytes": 18003627,
-        "href": "videos/appgellery_hijack.mp4"
+        "sha256": "ef2f4409add9ab4731509725921fcb439b70fdb5ec383374f4a5f4abef9d6a09",
+        "size_bytes": 17701857,
+        "href": "videos/appgellery_hijack_silent.mp4"
       }
     },
     {
