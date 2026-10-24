@@ -103,6 +103,14 @@ def read_catalog(root: Path) -> tuple[str, list[dict]]:
                         r"[0-9a-fA-F]{8}(?:-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}",
                         github_video_url)):
                 raise ValueError(f"{item['id']}: github_video_url must be a GitHub video attachment URL")
+        anonymous_video_url = item.get("anonymous_video_url")
+        if anonymous_video_url is not None:
+            if (item["kind"] != "video" or item["status"] != "provided"
+                    or not isinstance(anonymous_video_url, str)
+                    or not re.fullmatch(
+                        r"https://anonymous\.4open\.science/api/repo/[A-Za-z0-9_-]+/file/"
+                        r"evidence/videos/[A-Za-z0-9_.-]+\.mp4", anonymous_video_url)):
+                raise ValueError(f"{item['id']}: anonymous_video_url must be an anonymous repository MP4 URL")
         result.append(item)
     return catalog["title"], result
 
@@ -138,7 +146,8 @@ def detail_html(item: dict, *, prefix: str = "", for_readme: bool = False) -> st
         links = []
         if item.get("playback") and not (for_readme and item.get("github_video_url")):
             playback = item["playback"]
-            links.append(f'<a href="{escape(prefix + playback["href"])}">Play video</a>')
+            playback_url = (item.get("anonymous_video_url") if for_readme else None) or prefix + playback["href"]
+            links.append(f'<a href="{escape(playback_url)}">Play video</a>')
         label = "View full image" if item["kind"] == "image" else "Original video"
         links.append(f'<a href="{escape(prefix + item["href"])}">{label}</a>')
         parts.append('<p>' + ' · '.join(links) + '</p>')
@@ -168,7 +177,10 @@ def readme_table_html(items: list[dict]) -> str:
                 # URL is expanded into its native player, including inside a cell.
                 media = "\n\n" + item["github_video_url"] + "\n\n"
             elif item["kind"] == "video":
-                source = escape("evidence/" + (item.get("playback") or item)["href"])
+                # Use the raw endpoint on Anonymous GitHub: its /r/ file-viewer
+                # route can return HTML to media requests instead of MP4 bytes.
+                source = escape(item.get("anonymous_video_url") or
+                                "evidence/" + (item.get("playback") or item)["href"])
                 media = (f'<video width="320" controls preload="metadata" playsinline '
                          f'style="width:320px;max-height:240px" aria-label="{escape(item["title"])}">'
                          f'<source src="{source}"><a href="{href}">Open the original video</a>.</video>')

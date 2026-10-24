@@ -12,7 +12,8 @@
       "file": "videos/appgellery_hijack.mov",
       "capture_date": null,
       "notes": null,
-      "playback_file": "videos/appgellery_hijack.mp4"
+      "playback_file": "videos/appgellery_hijack.mp4",
+      "anonymous_video_url": "https://anonymous.4open.science/api/repo/ACTScope-1D5F/file/evidence/videos/appgellery_hijack.mp4"
     },
     {
       "id": "xiaomi-installation-hijacking",
