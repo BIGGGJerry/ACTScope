@@ -136,9 +136,7 @@ def detail_html(item: dict, *, prefix: str = "", for_readme: bool = False) -> st
         parts.append(f'<p class="note">{escape(item["notes"])}</p>')
     if item["status"] == "provided":
         links = []
-        if for_readme and item.get("github_video_url"):
-            links.append(f'<a href="{escape(item["github_video_url"])}">Play video</a>')
-        elif item.get("playback"):
+        if item.get("playback") and not (for_readme and item.get("github_video_url")):
             playback = item["playback"]
             links.append(f'<a href="{escape(prefix + playback["href"])}">Play video</a>')
         label = "View full image" if item["kind"] == "image" else "Original video"
