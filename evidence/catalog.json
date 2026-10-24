@@ -8,12 +8,12 @@
       "finding": "F1 — Insecure Installation Artifact Handling",
       "kind": "video",
       "title": "1. Installation hijacking (F1)",
-      "caption": "Demonstration of installation hijacking on AppGallery Connect.",
-      "file": "videos/appgellery_hijack.mov",
+      "caption": "Demonstration of installation hijacking on AppGallery Connect (silent video).",
+      "file": "videos/appgellery_hijack_silent.mov",
       "capture_date": null,
       "notes": null,
-      "playback_file": "videos/appgellery_hijack.mp4",
-      "anonymous_video_url": "https://anonymous.4open.science/api/repo/ACTScope-1D5F/file/evidence/videos/appgellery_hijack.mp4"
+      "playback_file": "videos/appgellery_hijack_silent.mp4",
+      "anonymous_video_url": "https://anonymous.4open.science/api/repo/ACTScope-1D5F/file/evidence/videos/appgellery_hijack_silent.mp4"
     },
     {
       "id": "xiaomi-installation-hijacking",
