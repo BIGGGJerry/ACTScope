@@ -1,0 +1,3 @@
+FOLDER.android/FOLDER.data/FOLDER.com.xingin.xhs/FOLDER.cache
+FOLDER.android/FOLDER.data/FOLDER.com.xingin.xhs/FOLDER.files
+FOLDER.android/FOLDER.media/FOLDER.com.xingin.xhs

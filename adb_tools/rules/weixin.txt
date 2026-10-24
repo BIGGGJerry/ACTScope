@@ -1,0 +1,5 @@
+FOLDER.tencent/FOLDER.weixinwork/FOLDER.src_log
+FOLDER.tencent/FOLDER.weixinwork/FOLDER.src_clog
+FOLDER.tencent/FOLDER.micromsg/FOLDER.WeiXin
+FOLDER.WechatXposed
+FOLDER.WechatContactsManager

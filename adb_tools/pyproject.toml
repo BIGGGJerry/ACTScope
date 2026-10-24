@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "actscope"
+version = "0.2.0"
+description = "Evidence-first controlled measurements for Android cloud test platforms"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+actscope = "actscope.cli:main"
+
+[tool.setuptools]
+packages = ["actscope"]

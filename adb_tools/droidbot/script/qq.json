@@ -1,0 +1,120 @@
+{
+    "views": {
+        "login_button1": {
+            "resource_id": ".*n6v",
+            "class": ".*Button"
+        },
+        "check_box": {
+            "resource_id": ".*ska",
+            "class": ".*CheckBox"
+        },
+        "protocol_agree":{
+            "resource_id":".*dialogRightBtn",
+            "class":".*Button"
+        },
+        "login_button2":{
+            "resource_id":".*btn_login",
+            "class":".*Button"
+        },
+        "search":{
+            "resource_id":".*wxd",
+            "class":".*View"
+        },
+        "head":{
+            "resource_id":".*e3u",
+            "class":".*RelativeLayout"
+        },
+        "settings":{
+            "resource_id":".*ody",
+            "class":".*Button"
+        },
+        "account":{
+            "resource_id":".*wxy",
+            "class":".*TextView",
+            "text":"账号管理"
+        }
+
+    },
+    "states": {
+        "login_state": {
+            "views": ["login_button1", "check_box"]
+        },
+        "protocol_state":{
+            "views":["protocol_agree"]
+        },
+        "newnlogin_state":{
+            "views":["login_button2"]
+        },
+        "main_state":{
+            "views":["search"]
+        }
+    },
+    "operations": {
+        "login_operation": [
+            {
+                "event_type": "touch",
+                "target_view": "check_box"
+            },
+            {
+                "event_type": "touch",
+                "target_view": "login_button1"
+            },
+            {
+                "event_type":"touch",
+                "target_view":"head"
+            },
+            {
+                "event_type":"touch",
+                "target_view":"settings"
+            },
+            {
+                "event_type":"touch",
+                "target_view":"account"
+            },
+            {
+                "event_type": "exit"
+            }
+        ],
+        "protocol_operation":[
+            {
+                "event_type":"touch",
+                "target_view":"protocol_agree"
+            },
+            {
+                "event_type": "exit"
+            }
+        ],
+        "newnlogin_operation":[
+            {
+                "event_type":"touch",
+                "target_view":"login_button2"
+            },
+            {
+                "event_type": "exit"
+            }
+        ],
+        "main_scroll":[
+            {
+                "event_type":"touch",
+                "target_view":"head"
+            },
+            {
+                "event_type":"touch",
+                "target_view":"settings"
+            },
+            {
+                "event_type":"touch",
+                "target_view":"account"
+            },
+            {
+                "event_type": "exit"
+            }
+        ]
+    },
+    "main": {
+        "login_state": ["login_operation"],
+        "protocol_state":["protocol_operation"],
+        "newnlogin_state":["newnlogin_operation"],
+        "main_state":["main_scroll"]
+    }
+}

@@ -1,0 +1,1 @@
+{"case": "http_proxy", "phase": "roundtrip", "proxy": "127.0.0.1:18080", "controlled_endpoint": false, "hold_s": 1, "recovery_plan": ""}

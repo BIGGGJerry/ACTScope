@@ -1,0 +1,13 @@
+{
+  "original_apk": "artifacts/owned-original.apk",
+  "replacement_apk": "artifacts/owned-replacement.apk",
+  "owned_test_artifacts": false,
+  "normal_baseline_verified": false,
+  "original_install_task_id": "",
+  "controlled_upload_id": "",
+  "roots": ["/"],
+  "duration_s": 60,
+  "poll_s": 1,
+  "scan_timeout_s": 15,
+  "max_files": 1000
+}

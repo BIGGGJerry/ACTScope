@@ -1,0 +1,8 @@
+FOLDER.autonavi
+FOLDER.autonavi/FOLDER.location
+FOLDER.autonavi/FOLDER.splash
+FOLDER.autonavi/FOLDER.httpcache
+FOLDER.autonavi/FOLDER.guide
+FOLDER.autonavi/FOLDER.data/FOLDER.mapcache
+FOLDER.autonavi/FOLDER.data/FOLDER.navi/FOLDER.compile_v2/FOLDER.chn/FILE.ackor_offline.log
+FOLDER.autonavi/FOLDER.httpcache/FOLDER.image

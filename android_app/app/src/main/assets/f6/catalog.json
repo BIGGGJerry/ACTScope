@@ -1,0 +1,249 @@
+{
+  "schema": "actscope.builtin.f6.v1",
+  "file_rule_count": 188,
+  "targets": [
+    {
+      "name": "qq",
+      "packages": [
+        {
+          "package": "com.tencent.mobileqq"
+        }
+      ],
+      "script_asset": "f6/ui/qq.json",
+      "source": "droidbot/script/qq.json",
+      "source_sha256": "4a9d045ae0642ff5484695f7fff8e5465f844a630c8d676e771f6ef941680cef",
+      "state_order": [
+        "login_state",
+        "protocol_state",
+        "newnlogin_state",
+        "main_state"
+      ],
+      "blocked_views": {
+        "welcome_button": "consent_requires_manual_action",
+        "check_box": "login_or_consent_requires_manual_action",
+        "protocol_agree": "login_or_consent_requires_manual_action",
+        "login_button1": "login_or_consent_requires_manual_action",
+        "login_button2": "login_or_consent_requires_manual_action"
+      },
+      "interval_ms": 1200,
+      "app_timeout_ms": 120000,
+      "step_timeout_ms": 12000,
+      "max_actions": 40
+    },
+    {
+      "name": "uc",
+      "packages": [
+        {
+          "package": "com.UCMobile"
+        }
+      ],
+      "script_asset": "f6/ui/uc.json",
+      "source": "droidbot/script/uc.json",
+      "source_sha256": "874acd8fee5dff3004a6c41d435ee0468940af42d796326f4380ca8e13f5e941",
+      "state_order": [
+        "his_state",
+        "main_state",
+        "history_state",
+        "welcome_state"
+      ],
+      "blocked_views": {
+        "welcome_button": "consent_requires_manual_action"
+      },
+      "interval_ms": 1200,
+      "app_timeout_ms": 120000,
+      "step_timeout_ms": 12000,
+      "max_actions": 40
+    },
+    {
+      "name": "quark",
+      "packages": [
+        {
+          "package": "com.quark.browser"
+        }
+      ],
+      "script_asset": "f6/ui/quark.json",
+      "source": "droidbot/script/quark.json",
+      "source_sha256": "1226c1bf80a9b181de22652dad15126506a348067d081724cafc522357f08caf",
+      "state_order": [
+        "main_state",
+        "welcome_state"
+      ],
+      "blocked_views": {
+        "welcome_button": "consent_requires_manual_action"
+      },
+      "interval_ms": 1200,
+      "app_timeout_ms": 120000,
+      "step_timeout_ms": 12000,
+      "max_actions": 40
+    },
+    {
+      "name": "weibo",
+      "packages": [
+        {
+          "package": "com.sina.weibo"
+        }
+      ],
+      "script_asset": "f6/ui/weibo.json",
+      "source": "droidbot/script/weibo.json",
+      "source_sha256": "e96687d6bfba7b0aa68880f49d24911223bf09cf0c5c773117590b638a14c828",
+      "state_order": [
+        "main_state",
+        "welcome_state"
+      ],
+      "blocked_views": {
+        "welcome_button": "consent_requires_manual_action"
+      },
+      "interval_ms": 7000,
+      "app_timeout_ms": 120000,
+      "step_timeout_ms": 12000,
+      "max_actions": 40
+    },
+    {
+      "name": "autonavi",
+      "packages": [
+        {
+          "package": "com.autonavi.minimap"
+        }
+      ],
+      "script_asset": "f6/ui/autonavi.json",
+      "source": "droidbot/script/autonavi.json",
+      "source_sha256": "51a7160923cd849dc5a2c62351197df847377c24bc278fcd3e8cbacb0804bb43",
+      "state_order": [
+        "main_state1",
+        "main_state2",
+        "welcome_state"
+      ],
+      "blocked_views": {
+        "welcome_button": "consent_requires_manual_action"
+      },
+      "interval_ms": 1200,
+      "app_timeout_ms": 120000,
+      "step_timeout_ms": 12000,
+      "max_actions": 40
+    },
+    {
+      "name": "xhs",
+      "packages": [
+        {
+          "package": "com.xingin.xhs"
+        }
+      ],
+      "script_asset": "f6/ui/xhs.json",
+      "source": "droidbot/script/xhs.json",
+      "source_sha256": "2454c4629b79eb000b7bbdc7ad5768c2af18352517e9a7c5a680227258d59e95",
+      "state_order": [
+        "main_state",
+        "welcome_state"
+      ],
+      "blocked_views": {
+        "welcome_button": "consent_requires_manual_action"
+      },
+      "interval_ms": 1200,
+      "app_timeout_ms": 120000,
+      "step_timeout_ms": 12000,
+      "max_actions": 40
+    },
+    {
+      "name": "qqbrowser",
+      "packages": [
+        {
+          "package": "com.tencent.mtt"
+        }
+      ],
+      "script_asset": "f6/ui/qqbrowser.json",
+      "source": "droidbot/script/qqbrowser.json",
+      "source_sha256": "c1d0e7868d671c5b4467c02e64f7a91b791ec0786f9e6b271297fce74db603fd",
+      "state_order": [
+        "main_state",
+        "welcome_state",
+        "me_state",
+        "login_state"
+      ],
+      "blocked_views": {
+        "welcome_button": "consent_requires_manual_action"
+      },
+      "interval_ms": 7000,
+      "app_timeout_ms": 120000,
+      "step_timeout_ms": 12000,
+      "max_actions": 40
+    },
+    {
+      "name": "baidu",
+      "packages": [
+        {
+          "package": "com.baidu.searchbox"
+        }
+      ],
+      "script_asset": "f6/ui/baidu.json",
+      "source": "droidbot/script/baidu.json",
+      "source_sha256": "c5fe637056540520483b0e3d8eb01fba25ed187b6a446bb58be4178f34ec42d8",
+      "state_order": [
+        "main_state",
+        "welcome_state",
+        "me_state",
+        "gl_state"
+      ],
+      "blocked_views": {
+        "welcome_button": "consent_requires_manual_action"
+      },
+      "interval_ms": 1200,
+      "app_timeout_ms": 120000,
+      "step_timeout_ms": 12000,
+      "max_actions": 40
+    },
+    {
+      "name": "cloudmusic",
+      "packages": [
+        {
+          "package": "com.netease.cloudmusic"
+        }
+      ],
+      "script_asset": "f6/ui/cloudmusic.json",
+      "source": "droidbot/script/cloudmusic.json",
+      "source_sha256": "c335b8ba665cb000406dad6241828d1550c8987dca56611a5f922de7583b2b67",
+      "state_order": [
+        "main_state",
+        "welcome_state"
+      ],
+      "blocked_views": {
+        "welcome_button": "consent_requires_manual_action"
+      },
+      "interval_ms": 1200,
+      "app_timeout_ms": 120000,
+      "step_timeout_ms": 12000,
+      "max_actions": 40
+    },
+    {
+      "name": "mi_browser",
+      "packages": [
+        {
+          "package": "com.android.browser",
+          "manufacturer_guard": [
+            "xiaomi",
+            "redmi"
+          ],
+          "identity_note": "Shared with AOSP; require Xiaomi/Redmi device AND original UI state match"
+        },
+        {
+          "package": "com.mi.globalbrowser",
+          "identity_source": "https://play.google.com/store/apps/details?id=com.mi.globalbrowser"
+        }
+      ],
+      "script_asset": "f6/ui/mi_browser.json",
+      "source": "droidbot/script/mi_browser.json",
+      "source_sha256": "5b6caaa2a57e0f4b39209f87eec7d548356da52aa778b16f126daa836fd8b468",
+      "state_order": [
+        "me_state",
+        "main_state",
+        "welcome_state"
+      ],
+      "blocked_views": {
+        "welcome_button": "consent_requires_manual_action"
+      },
+      "interval_ms": 1200,
+      "app_timeout_ms": 120000,
+      "step_timeout_ms": 12000,
+      "max_actions": 40
+    }
+  ]
+}

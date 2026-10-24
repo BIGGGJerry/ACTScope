@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "path": "/sdcard/Test/session.txt",
+      "kind": "file",
+      "exists": true,
+      "size": 3,
+      "readable": true,
+      "expected_cleanup": true,
+      "attributed_to_prior_session": null,
+      "provenance_evidence": "Own previous-session output manifest",
+      "public_resource": false
+    }
+  ],
+  "ui": [],
+  "file_scan_complete": true,
+  "ui_scan_complete": false,
+  "access_errors": [],
+  "_example": {
+    "synthetic": true,
+    "failure_mode": "F6",
+    "expected_status": "inconclusive",
+    "notice": "仅作离线判据回归样例，不是实测结果。"
+  }
+}

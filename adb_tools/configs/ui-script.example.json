@@ -1,0 +1,6 @@
+[
+  {"action": "launch", "component": "org.example.ownedapp/.MainActivity"},
+  {"action": "wait", "seconds": 1},
+  {"action": "tap", "x": 100, "y": 200},
+  {"action": "wait", "seconds": 1}
+]

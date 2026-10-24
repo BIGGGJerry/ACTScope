@@ -1,0 +1,73 @@
+{
+    "views": {
+        "welcome_layer": {
+            "text":"欢迎使用 高德地图",
+            "class": ".*TextView"
+        },
+        "welcome_button":{
+            "text": "同意并继续",
+            "class": ".*TextView"
+        },
+        "me_button1":{
+            "text":"未登录",
+            "resource_id":".*tab_name_v2",
+            "class":".*TextView"
+        },
+        "me_button2":{
+            "text":"我的",
+            "resource_id":".*tab_name_v2",
+            "class":".*TextView"
+        },
+        "searchbar":{
+            "resource_id":".*layout_searchbar_content",
+            "class":".*LinearLayout"
+        }
+
+    },
+    "states": {
+        "welcome_state": {
+            "views": ["welcome_layer", "welcome_button"]
+        },
+        "main_state1":{
+            "views": ["searchbar","me_button1"]
+        },
+        "main_state2":{
+            "views": ["searchbar","me_button2"]
+        }
+    },
+    "operations": {
+        "welcome_operation": [
+            {
+                "event_type": "touch",
+                "target_view": "welcome_button"
+            },
+            {
+                "event_type":"exit"
+            }
+        ],
+        "main_operation1":[
+            {
+                "event_type":"touch",
+                "target_view":"me_button1"
+            },
+            {
+                "event_type":"exit"
+            }
+        ],
+        "main_operation2":[
+            {
+                "event_type":"touch",
+                "target_view":"me_button2"
+            },
+            {
+                "event_type":"exit"
+            }
+        ]
+
+    },
+    "main": {
+        "main_state1":["main_operation1"],
+        "main_state2":["main_operation2"],
+        "welcome_state": ["welcome_operation"]
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "views": {
+        "welcome_layer": {
+            "text":"欢迎使用百度",
+            "class": ".*TextView"
+        },
+        "welcome_button":{
+            "text": "同意",
+            "class": ".*TextView"
+        },
+        "history":{
+            "text":"历史",
+            "resource_id":".*obfuscated",
+            "class":".*TextView"
+        },
+        "me_button":{
+            "text":"我的",
+            "resource_id":".*obfuscated",
+            "class":".*TextView"
+        },
+        "guanlianlogin":{
+            "text":"登录百度账号，精彩永相随",
+            "resource_id":".*obfuscated",
+            "class":".*TextView"
+        },
+        "guanlianbutton":{
+            "content_desc":"关闭",
+            "resource_id":".*obfuscated",
+            "class":".*ImageView"
+        },
+        "search":{
+            "text":"搜索",
+            "resource_id":".*obfuscated",
+            "class":".*TextView"
+        },
+        "new_layer":{
+            "resource_id":".*tabs",
+            "class":".*TabWidget"
+        }
+    },
+    "states": {
+        "welcome_state": {
+            "views": ["welcome_layer", "welcome_button"]
+        },
+        "main_state":{
+            "views": ["me_button","search"]
+        },
+        "me_state":{
+            "views": ["history"]
+        },
+        "gl_state":{
+            "views": ["guanlianlogin"]
+        },
+        "new_layer_state":{
+            "views":["new_layer"]
+        }
+    },
+    "operations": {
+        "welcome_operation": [
+            {
+                "event_type": "touch",
+                "target_view": "welcome_button"
+            },
+            {
+                "event_type":"exit"
+            }
+        ],
+        "main_operation":[
+            {
+                "event_type":"touch",
+                "target_view":"me_button"
+            }
+        ],
+        "me_operation":[
+            {
+                "event_type":"touch",
+                "target_view":"history"
+            },
+            {
+                "event_type":"exit"
+            }
+        ],
+        "gl_operation":[
+            {
+                "event_type":"touch",
+                "target_view":"guanlianbutton"
+            }
+        ]
+
+    },
+    "main": {
+        "main_state":["main_operation"],
+        "welcome_state": ["welcome_operation"],
+        "me_state":["me_operation"],
+        "gl_state":["gl_operation"]
+    }
+}

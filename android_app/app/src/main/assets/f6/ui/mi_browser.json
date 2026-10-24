@@ -1,0 +1,89 @@
+{
+    "views": {
+        "welcome_layer": {
+            "text":"欢迎使用小米浏览器",
+            "class": ".*TextView"
+        },
+        "welcome_button":{
+            "text": "同意",
+            "class": ".*TextView"
+        },
+        "more":{
+            "content_desc":"菜单",
+            "class":".*FrameLayout"
+        },
+        "me_button":{
+            "content_desc":"我的",
+            "class":".*ViewGroup"
+        },
+        "multiwindow":{
+            "resource_id":".*right_top_multi_window",
+            "class":".*TextView"
+        },
+        "tags":{
+            "resource_id":".*person_menu_container",
+            "class":".*RecyclerView"
+        },
+        "login_button":{
+            "content_desc":"关闭按钮",
+            "resource_id":".*btn",
+            "class":".*ImageView"
+        },
+        "history":{
+            "text":"书签历史",
+            "class":".*TextView"
+        },
+        "history_button":{
+            "text":"历史",
+            "class":".*TextView"
+        }
+
+    },
+    "states": {
+        "welcome_state": {
+            "views": ["welcome_layer", "welcome_button"]
+        },
+        "main_state":{
+            "views": ["me_button"]
+        },
+        "me_state":{
+            "views":["me_button","tags"]
+        }
+    },
+    "operations": {
+        "welcome_operation": [
+            {
+                "event_type": "touch",
+                "target_view": "welcome_button"
+            },
+            {
+                "event_type":"exit"
+            }
+        ],
+        "main_operation":[
+            {
+                "event_type":"touch",
+                "target_view":"me_button"
+            }
+        ],
+        "history_operation":[
+            {
+                "event_type":"touch",
+                "target_view":"history"
+            },
+            {
+                "event_type":"touch",
+                "target_view":"history_button"
+            },
+            {
+                "event_type":"exit"
+            }
+        ]
+
+    },
+    "main": {
+        "me_state":["history_operation"],
+        "main_state":["main_operation"],
+        "welcome_state": ["welcome_operation"]
+    }
+}

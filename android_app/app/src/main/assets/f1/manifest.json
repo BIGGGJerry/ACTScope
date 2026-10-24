@@ -1,0 +1,11 @@
+{
+  "package_name": "org.actscope.f1fixture",
+  "purpose": "passive_owned_f1_fixtures",
+  "B": {
+    "path": "actscope-f1-B.apk",
+    "sha256": "fec4bf9b8af9b0b010dd4c9099bb6bea6f7f3400192ebd8878cddb4293266aba",
+    "build_id": "ACTSCOPE-F1-B",
+    "version_name": "1.0-B",
+    "size_bytes": 8621
+  }
+}

@@ -1,0 +1,9 @@
+FOLDER.QQBrowser
+FOLDER.qqbrowser/FOLDER..VideoPics
+FOLDER.qqbrowser/FOLDER..Application
+FOLDER.qqbrowser/FOLDER.视频
+FOLDER.qqbrowser/FOLDER..TempShare
+FOLDER.qqbrowser/FOLDER..pushLog
+FOLDER.qqbrowser/FOLDER..cache
+FOLDER.qqbrowser/FOLDER..ReaderTemp
+FOLDER.qqbrowser/FOLDER..logTmp

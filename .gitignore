@@ -1,0 +1,18 @@
+# Local execution data and build outputs; released artifacts/ remain included.
+runs/
+telemetry-data/
+.test-tmp/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.DS_Store
+._*
+.idea/
+.gradle/
+.build-home/
+**/build/
+**/local.properties
+*.keystore
+*.jks
+adb_tools/configs/local*.json

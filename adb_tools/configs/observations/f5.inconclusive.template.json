@@ -1,0 +1,37 @@
+{
+  "events": [
+    {
+      "run_id": null,
+      "instance_id": null,
+      "build_id": null,
+      "sequence": null,
+      "sampled_at_device": null,
+      "received_at_server": null,
+      "clock_offset_ms": null,
+      "clock_uncertainty_ms": null,
+      "clock_sync_age_ms": null,
+      "boot_id": null,
+      "elapsed_realtime_ms": null,
+      "a11y_enabled": null,
+      "a11y_sampled_at": null,
+      "a11y_component": null,
+      "device_admin_enabled": null,
+      "notification_listener_enabled": null
+    }
+  ],
+  "session_end_server_ms": null,
+  "expected_instance_id": null,
+  "expected_run_id": null,
+  "expected_build_id": null,
+  "baseline_telemetry_verified": null,
+  "initial_a11y_enabled": null,
+  "reauthorized": null,
+  "a11y_component": null,
+  "notes": "填入真实观测及证据；null表示未知，不等于false。此模板不代表完成实验。",
+  "_example": {
+    "synthetic": true,
+    "failure_mode": "F5",
+    "expected_status": "inconclusive",
+    "notice": "空白输入模板，不是平台实测结果。复制并记录真实证据后移除此元数据。"
+  }
+}

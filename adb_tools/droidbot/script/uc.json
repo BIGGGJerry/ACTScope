@@ -1,0 +1,85 @@
+{
+    "views": {
+        "welcome_layer": {
+            "text":"个人信息保护指引",
+            "class": ".*TextView"
+        },
+        "welcome_button":{
+            "text": "同意",
+            "class": ".*TextView"
+        },
+        "menu":{
+            "content_desc":"菜单",
+            "class":".*RelativeLayout"
+        },
+        "search":{
+            "text":"搜索",
+            "class":".*Button"
+        },
+        "history":{
+            "text":"收藏/历史",
+            "class":".*TextView"
+        },
+        "history_button":{
+            "text":"历史",
+            "class":"android.widget.TextView"
+        },
+        "content":{
+            "resource_id":".*content",
+            "class":".*FrameLayout"
+        }
+
+    },
+    "states": {
+        "welcome_state": {
+            "views": ["welcome_layer", "welcome_button"]
+        },
+        "main_state":{
+            "views": ["menu","search"]
+        },
+        "his_state":{
+            "views":["history"]
+        },
+        "history_state":{
+            "views":["history_button"]
+        }
+    },
+    "operations": {
+        "welcome_operation": [
+            {
+                "event_type": "touch",
+                "target_view": "welcome_button"
+            },
+            {
+                "event_type":"exit"
+            }
+        ],
+        "main_operation":[
+            {
+                "event_type":"touch",
+                "target_view":"menu"
+            }
+        ],
+        "his_operation":[
+            {
+                "event_type":"touch",
+                "target_view":"history"
+            }
+        ],
+        "history_operation":[
+            {
+                "event_type":"touch",
+                "target_view":"history_button"
+            },
+            {
+                "event_type":"exit"
+            }
+        ]
+    },
+    "main": {
+        "his_state":["his_operation"],
+        "main_state":["main_operation"],
+        "history_state":["history_operation"],
+        "welcome_state": ["welcome_operation"]
+    }
+}

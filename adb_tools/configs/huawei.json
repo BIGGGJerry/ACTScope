@@ -1,0 +1,21 @@
+{
+  "platform": "Huawei",
+  "adapter": "manual_configured",
+  "status": "unverified_template",
+  "capabilities": {
+    "remote_adb": null,
+    "wireless_debugging": null,
+    "shizuku": null,
+    "a11y": null,
+    "reacquire_device": null,
+    "install_routes": ["platform_ui"]
+  },
+  "adb": {"binary": "adb", "serial": "REPLACE_WITH_VERIFIED_PLATFORM_SERIAL", "timeout_s": 15},
+  "manual_steps": {
+    "deploy_app": "Submit the study APK using the current Huawei platform installation UI; save the task identity and final installed-app evidence.",
+    "connect_debug": "Record only debugging capabilities observed in this session. If ADB is available, set remote_adb=true and the verified serial; otherwise set false. This template does not establish or refresh credentials.",
+    "end_session": "Release the device through the platform and record the observed confirmation time with its timezone and supporting evidence.",
+    "reacquire_device": "If needed, verify the device identity after reacquisition; a matching model alone is insufficient.",
+    "prepare_device_probe": "Determine whether Shizuku and accessibility can be enabled on the selected device. The template does not assert that either capability is available."
+  }
+}

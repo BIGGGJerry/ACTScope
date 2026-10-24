@@ -1,0 +1,16 @@
+{
+  "package_name": "org.actscope.f1fixture",
+  "purpose": "passive_owned_f1_fixtures",
+  "A": {
+    "path": "artifacts/f1/actscope-f1-A.apk",
+    "sha256": "a8c19e21f44ea1f44f9a22ada3e30782673ad0f3a6d9dde859787c5fad198a12",
+    "build_id": "ACTSCOPE-F1-A",
+    "version_name": "1.0-A"
+  },
+  "B": {
+    "path": "artifacts/f1/actscope-f1-B.apk",
+    "sha256": "fec4bf9b8af9b0b010dd4c9099bb6bea6f7f3400192ebd8878cddb4293266aba",
+    "build_id": "ACTSCOPE-F1-B",
+    "version_name": "1.0-B"
+  }
+}

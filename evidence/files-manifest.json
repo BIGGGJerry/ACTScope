@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "hash_algorithm": "SHA-256",
+  "note": "File hashes establish identity only. Experimental claims require review of the supplied evidence.",
+  "items": [
+    {
+      "id": "appgallery-installation-hijacking",
+      "platform": "AppGallery Connect",
+      "finding": "F1 — Insecure Installation Artifact Handling",
+      "kind": "video",
+      "title": "1. Installation hijacking (F1)",
+      "file": "videos/appgellery_hijack.mov",
+      "status": "provided",
+      "size_bytes": 27330898,
+      "sha256": "c12c7e99b5e0e29049ec57f097667d574f037000488f57a7a2c10bb1d4c76569",
+      "capture_date": null,
+      "playback": {
+        "file": "videos/appgellery_hijack.mp4",
+        "status": "provided",
+        "sha256": "8abca95f6fe8a1921755386876cadd5a8869cceaf4ab75bf33e121b098aa1810",
+        "size_bytes": 18003627,
+        "href": "videos/appgellery_hijack.mp4"
+      }
+    },
+    {
+      "id": "xiaomi-installation-hijacking",
+      "platform": "Xiaomi Cloud Testing Platform",
+      "finding": "F1 — Insecure Installation Artifact Handling",
+      "kind": "image",
+      "title": "2. Successful installation hijacking (F1)",
+      "file": "images/xiaomi.jpeg",
+      "status": "provided",
+      "size_bytes": 1966197,
+      "sha256": "b7ec88fa9f0fe53e9b08fbee3ee8e10d35160be084278968ae268e7eb0bfb3f7",
+      "capture_date": null,
+      "playback": null
+    },
+    {
+      "id": "aws-installation-path-discovery",
+      "platform": "AWS Device Farm",
+      "finding": "F1 — Insecure Installation Artifact Handling",
+      "kind": "image",
+      "title": "3. Installation-path discovery (F1)",
+      "file": "images/aws-hijack1.png",
+      "status": "provided",
+      "size_bytes": 418684,
+      "sha256": "bd693c5e38af6b29e360b6d1dbaa7bf9742ccec39e6487c75395aecbe7d59c2f",
+      "capture_date": null,
+      "playback": null
+    },
+    {
+      "id": "appgallery-network-proxy-interference",
+      "platform": "AppGallery Connect",
+      "finding": "F3 — Over-privileged ADB",
+      "kind": "image",
+      "title": "4. Network-proxy interference (F3)",
+      "file": "images/appgellery_proxy.png",
+      "status": "provided",
+      "size_bytes": 259734,
+      "sha256": "17f84ce6dbec0ec9e7723c451c6a0853cafadaf07fcbd2d152f3b14efd80cb30",
+      "capture_date": null,
+      "playback": null
+    }
+  ]
+}

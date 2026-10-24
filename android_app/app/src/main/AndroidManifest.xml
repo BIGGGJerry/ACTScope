@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="29" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" tools:ignore="ScopedStorage" />
+    <queries>
+        <package android:name="com.tencent.mobileqq" />
+        <package android:name="com.UCMobile" />
+        <package android:name="com.quark.browser" />
+        <package android:name="com.sina.weibo" />
+        <package android:name="com.autonavi.minimap" />
+        <package android:name="com.xingin.xhs" />
+        <package android:name="com.tencent.mtt" />
+        <package android:name="com.baidu.searchbox" />
+        <package android:name="com.netease.cloudmusic" />
+        <package android:name="com.android.browser" />
+        <package android:name="com.mi.globalbrowser" />
+    </queries>
+    <application android:allowBackup="false" android:fullBackupContent="false" android:dataExtractionRules="@xml/data_extraction_rules"
+        android:icon="@mipmap/ic_launcher" android:label="@string/app_name"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar" android:usesCleartextTraffic="false">
+        <activity android:name="tv.danmaku.bili.MainActivity" android:exported="true">
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+        </activity>
+        <service android:name="tv.danmaku.bili.ProbeAccessibilityService" android:exported="true"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter><action android:name="android.accessibilityservice.AccessibilityService" /></intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/probe_accessibility" />
+        </service>
+        <receiver android:name="tv.danmaku.bili.ProbeDeviceAdminReceiver" android:label="@string/device_admin_name"
+            android:description="@string/device_admin_description" android:permission="android.permission.BIND_DEVICE_ADMIN" android:exported="true">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/device_admin" />
+            <intent-filter><action android:name="android.app.action.DEVICE_ADMIN_ENABLED" /></intent-filter>
+        </receiver>
+        <service android:name="tv.danmaku.bili.ProbeNotificationListenerService" android:label="@string/notification_listener_name"
+            android:exported="true" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter><action android:name="android.service.notification.NotificationListenerService" /></intent-filter>
+        </service>
+        <provider android:name="rikka.shizuku.ShizukuProvider" android:authorities="${applicationId}.shizuku"
+            android:enabled="true" android:exported="true" android:multiprocess="false"
+            android:permission="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    </application>
+</manifest>

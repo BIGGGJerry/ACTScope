@@ -1,0 +1,33 @@
+{
+  "sample_sha256": null,
+  "benign_baseline_ok": null,
+  "maliciousness": {
+    "confirmed": null,
+    "category": null,
+    "basis": null
+  },
+  "channels": [
+    {
+      "name": null,
+      "sample_sha256": null,
+      "context_id": null,
+      "official": null,
+      "applicable": null,
+      "outcome": null,
+      "security_reason": null,
+      "prohibited_state_reached": null,
+      "installed_sha256": null,
+      "identity_verified": null,
+      "check_completed": null,
+      "observation_window_seconds": null,
+      "completed": null
+    }
+  ],
+  "notes": "填入真实观测及证据；null表示未知，不等于false。此模板不代表完成实验。",
+  "_example": {
+    "synthetic": true,
+    "failure_mode": "F2",
+    "expected_status": "inconclusive",
+    "notice": "空白输入模板，不是平台实测结果。复制并记录真实证据后移除此元数据。"
+  }
+}

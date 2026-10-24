@@ -1,0 +1,54 @@
+{
+    "views": {
+        "welcome_layer": {
+            "text":"温馨提示",
+            "class": ".*TextView"
+        },
+        "welcome_button":{
+            "text": "同意并继续",
+            "class": ".*TextView"
+        },
+        "more":{
+            "content_desc":"菜单",
+            "class":".*FrameLayout"
+        },
+        "me_button":{
+            "content_desc":"我",
+            "class":".*FrameLayout"
+        }
+
+    },
+    "states": {
+        "welcome_state": {
+            "views": ["welcome_layer", "welcome_button"]
+        },
+        "main_state":{
+            "views": ["more"]
+        }
+    },
+    "operations": {
+        "welcome_operation": [
+            {
+                "event_type": "touch",
+                "target_view": "welcome_button"
+            },
+            {
+                "event_type":"exit"
+            }
+        ],
+        "main_operation":[
+            {
+                "event_type":"touch",
+                "target_view":"more"
+            },
+            {
+                "event_type":"exit"
+            }
+        ]
+
+    },
+    "main": {
+        "main_state":["main_operation"],
+        "welcome_state": ["welcome_operation"]
+    }
+}

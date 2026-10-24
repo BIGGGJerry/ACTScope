@@ -1,0 +1,19 @@
+{
+  "normal_baseline_verified": true,
+  "original_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "replacement_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "installed_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "original_install_task_id": "task-1",
+  "observed_install_task_id": "task-1",
+  "replacement_attempted": true,
+  "install_completed": true,
+  "legitimate_transform_excluded": true,
+  "installed_identity_verified": true,
+  "observation_complete": true,
+  "_example": {
+    "synthetic": true,
+    "failure_mode": "F1",
+    "expected_status": "confirmed",
+    "notice": "仅作离线判据回归样例，不是实测结果。"
+  }
+}

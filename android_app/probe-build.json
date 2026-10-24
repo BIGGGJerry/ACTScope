@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-16",
+  "version": "2.7",
+  "versionCode": 10,
+  "applicationId": "org.actscope.probe",
+  "build_id": "actscope-2.7-f4d89be3da30",
+  "apk": "actscope-probe.apk",
+  "size_bytes": 2783703,
+  "sha256": "89b95b8cae8b1d56daba82ee8e0ad38174f63e53ca2b8ae1af43a7dc4ff5de40",
+  "change": "Adds a default-enabled 10 by 10 physical-pixel non-touchable overlay dot with localized UI and a user-granted overlay settings flow.",
+  "build": {
+    "assembleDebug": "success",
+    "lint": {
+      "errors": 0,
+      "fatal": 0,
+      "warnings": 42
+    },
+    "unit_tests": "not_run"
+  },
+  "device_validation": "not_run",
+  "cloud_validation": "not_run"
+}

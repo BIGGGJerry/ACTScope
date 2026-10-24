@@ -1,0 +1,21 @@
+{
+  "platform": "Xiaomi",
+  "adapter": "manual_configured",
+  "status": "unverified_template",
+  "capabilities": {
+    "remote_adb": null,
+    "wireless_debugging": null,
+    "shizuku": null,
+    "a11y": null,
+    "reacquire_device": null,
+    "install_routes": ["platform_ui", "adb"]
+  },
+  "adb": {"binary": "adb", "serial": "REPLACE_WITH_VERIFIED_PLATFORM_SERIAL", "timeout_s": 15},
+  "manual_steps": {
+    "deploy_app": "在小米云测试平台当前界面上传研究者自有 APK，保存任务编号、最终安装状态和安全检查结果；若界面已变化，以实际观察为准。",
+    "connect_debug": "在平台当前会话取得调试信息并由操作者连接；核实后设置 remote_adb=true 和 serial。工具不会获取、更新或刷新凭据。",
+    "end_session": "在平台归还设备，确认平台显示结束后记录 session_ended 及其时区时间。",
+    "reacquire_device": "仅在实验需要时重新申请，依据设备标识核实是否为同一设备；不能只比较机型。",
+    "prepare_device_probe": "按当前设备条件人工启动 Shizuku 并记录执行身份；人工授予自有测试 APK 无障碍权限。"
+  }
+}

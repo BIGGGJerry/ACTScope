@@ -1,0 +1,7 @@
+{
+  "root": "/sdcard",
+  "rules": ["rules/qq.txt", "rules/uc.txt", "rules/quark.txt", "rules/weibo.txt", "rules/autonavi.txt", "rules/xhs.txt", "rules/qqbrowser.txt", "rules/baidu.txt", "rules/cloudmusic.txt"],
+  "max_files_per_directory": 100,
+  "provenance": {},
+  "ui_scan_complete": false
+}

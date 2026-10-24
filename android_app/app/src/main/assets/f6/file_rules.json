@@ -1,0 +1,1511 @@
+{
+  "roots": [
+    "/sdcard/AiQQTask",
+    "/sdcard/.AppCenterWebBuffer_QQ",
+    "/sdcard/com.tencent.mobileqq",
+    "/sdcard/backup/com.tencent.mobileqq/miniqb.tbs.org",
+    "/sdcard/qqsecuredownload/.CacheCEImage",
+    "/sdcard/android/data/com.qq.ac.android",
+    "/sdcard/android/data/com.tencent.android.qqdownloader/files/tbslog",
+    "/sdcard/android/data/com.tencent.mobileqq/qzone/video_cache/local",
+    "/sdcard/android/data/com.tencent.mobileqq/files/tbslog",
+    "/sdcard/android/data/com.tencent.mobileqq/files/backup",
+    "/sdcard/android/data/com.tencent.mobileqq/Tencent/MobileQQ/chatpic",
+    "/sdcard/android/data/com.tencent.mobileqq/cache/tencent_sdk_download",
+    "/sdcard/android/data/com.qq.qcloud/files/tbslog",
+    "/sdcard/android/data/com.qq.ac.android/files/tbslog",
+    "/sdcard/tencent/QQ_business",
+    "/sdcard/tencent/QQ_Collection",
+    "/sdcard/tencent/mobileqqi/diskcache",
+    "/sdcard/tencent/wtlogin/com.tencent.mobileqq",
+    "/sdcard/tencent/com/tencent/mobileqq/avsdk/log",
+    "/sdcard/tencent/mobileqq/qbiz",
+    "/sdcard/tencent/mobileqq/funcall",
+    "/sdcard/tencent/mobileqq/thumb",
+    "/sdcard/tencent/mobileqq/.profilecard",
+    "/sdcard/tencent/mobileqq/.diy",
+    "/sdcard/tencent/mobileqq/font_info",
+    "/sdcard/tencent/mobileqq/custom_background",
+    "/sdcard/tencent/mobileqq/.signatureTemplate",
+    "/sdcard/tencent/mobileqq/err",
+    "/sdcard/tencent/mobileqq/.emojiSticker_v2.1",
+    "/sdcard/tencent/mobileqq/ptv_template",
+    "/sdcard/tencent/mobileqq/.pendant",
+    "/sdcard/tencent/mobileqq/.font_info",
+    "/sdcard/tencent/mobileqq/QWallet",
+    "/sdcard/tencent/mobileqq/doodle_template",
+    "/sdcard/tencent/mobileqq/.gift",
+    "/sdcard/tencent/mobileqq/AR_MAP",
+    "/sdcard/tencent/mobileqq/ar_model",
+    "/sdcard/tencent/mobileqq/ArkApp",
+    "/sdcard/tencent/mobileqq/head",
+    "/sdcard/tencent/mobileqq/RedPacket",
+    "/sdcard/tencent/mobileqq/early",
+    "/sdcard/tencent/mobileqq/ocr",
+    "/sdcard/tencent/mobileqq/hotpic",
+    "/sdcard/tencent/mobileqq/.emotionsm",
+    "/sdcard/tencent/mobileqq/shortvideo",
+    "/sdcard/tencent/mobileqq/bless",
+    "/sdcard/tencent/mobileqq/.apollo",
+    "/sdcard/tencent/mobileqq/res_precover",
+    "/sdcard/tencent/mobileqq/photo",
+    "/sdcard/tencent/mobileqq/iar",
+    "/sdcard/tencent/mobileqq/log",
+    "/sdcard/tencent/mobileqq/artfilter",
+    "/sdcard/tencent/mobileqq/PhotoPlus",
+    "/sdcard/tencent/mobileqq/poke",
+    "/sdcard/tencent/mobileqq/diskcache",
+    "/sdcard/tencent/mobileqq/msgpushnotify/msgnotify_pic",
+    "/sdcard/tencent/mobileqq/photo/ ",
+    "/sdcard/tencent/mobileqq/snooze/.gift",
+    "/sdcard/tencent/mobileqq/snooze/head/_hd",
+    "/sdcard/tencent/mobileqq/qav/beauty/SKINCOLOR",
+    "/sdcard/tencent/mobileqq/data/wifi",
+    "/sdcard/tencent/mobileqq/shortvideo/thumbs",
+    "/sdcard/tencent/mobileqq/portrait/HDAvatar",
+    "/sdcard/tencent/qqfile_recv/.trooptmp",
+    "/sdcard/tencent/qq_images/QQEditPic",
+    "/sdcard/tencent/msflogs/com/tencent/mobileqq",
+    "/sdcard/ucgamesasdk",
+    "/sdcard/ucgamesdk",
+    "/sdcard/UCNewsApp",
+    "/sdcard/backucup/com.UCMobile",
+    "/sdcard/android/data/com.uc.infoflow/files/tnetlogs",
+    "/sdcard/android/data/com.ucmobile/files/tnetlogs",
+    "/sdcard/ucdownloads/cache",
+    "/sdcard/ucdownloads/advertise",
+    "/sdcard/ucdownloads/screenshot/tmp",
+    "/sdcard/ucdownloads/video/.apolloCache",
+    "/sdcard/quark/tmp",
+    "/sdcard/WeiboInternational",
+    "/sdcard/sina/weiboheadline",
+    "/sdcard/sina/weibo/.prenew",
+    "/sdcard/sina/weibo/.wbadcache",
+    "/sdcard/sina/weibo/download",
+    "/sdcard/sina/weibo/.weibo_video_cache_new",
+    "/sdcard/sina/weibo/.log",
+    "/sdcard/sina/weibo/.appinfos",
+    "/sdcard/sina/weibo/WeiyouMenuList",
+    "/sdcard/sina/weibo/page",
+    "/sdcard/sina/weibo/.weibo_ad_universal_cache",
+    "/sdcard/sina/weibo/.weibo_video_cache",
+    "/sdcard/sina/weibo/msgcatch",
+    "/sdcard/sina/weibo/traffic",
+    "/sdcard/sina/weibo/ChannelList",
+    "/sdcard/sina/weibo/.applogs",
+    "/sdcard/sina/weibo/.weibo_pic_new",
+    "/sdcard/sina/weibo/.portraitnew",
+    "/sdcard/sina/weibo/page/cardlist",
+    "/sdcard/sina/weiboheadline/.weibo_video",
+    "/sdcard/sina/weiboheadline/log",
+    "/sdcard/android/data/.log/com.sina.weibo",
+    "/sdcard/weibointernational/weiboIntl_cache",
+    "/sdcard/weibointernational/Cache",
+    "/sdcard/weibointernational/patch",
+    "/sdcard/autonavi",
+    "/sdcard/autonavi/location",
+    "/sdcard/autonavi/splash",
+    "/sdcard/autonavi/httpcache",
+    "/sdcard/autonavi/guide",
+    "/sdcard/autonavi/data/mapcache",
+    "/sdcard/autonavi/data/navi/compile_v2/chn/ackor_offline.log",
+    "/sdcard/autonavi/httpcache/image",
+    "/sdcard/android/data/com.xingin.xhs/cache",
+    "/sdcard/android/data/com.xingin.xhs/files",
+    "/sdcard/android/media/com.xingin.xhs",
+    "/sdcard/QQBrowser",
+    "/sdcard/qqbrowser/.VideoPics",
+    "/sdcard/qqbrowser/.Application",
+    "/sdcard/qqbrowser/视频",
+    "/sdcard/qqbrowser/.TempShare",
+    "/sdcard/qqbrowser/.pushLog",
+    "/sdcard/qqbrowser/.cache",
+    "/sdcard/qqbrowser/.ReaderTemp",
+    "/sdcard/qqbrowser/.logTmp",
+    "/sdcard/BaiduMapSDK",
+    "/sdcard/BaiduWM",
+    "/sdcard/BaiduNavi",
+    "/sdcard/com.baidu.appsearch.log.lck",
+    "/sdcard/com.baidu.appsearch_baseStatistics.log.lck",
+    "/sdcard/com.baidu.appsearch_bdservice_v1.log.lck",
+    "/sdcard/com.baidu.video",
+    "/sdcard/sdk_kuang_baidu_tieba",
+    "/sdcard/.com.baidu.homework",
+    "/sdcard/com.baidu.appsearch_baseStatistics.log",
+    "/sdcard/com.baidu.appsearch_gptInstaller.log.lck",
+    "/sdcard/com.baidu.appsearch.log",
+    "/sdcard/BaiduYuedu",
+    "/sdcard/com.baidu.appsearch_gptInstaller.log",
+    "/sdcard/baiduTTS",
+    "/sdcard/.baiduCameraSdk",
+    "/sdcard/com.baidu.appsearch_bdservice_v1.log",
+    "/sdcard/com.baidu.video/guid",
+    "/sdcard/backup/com.downloading.main.baiduyundownload",
+    "/sdcard/baidunavi/tmp",
+    "/sdcard/baidunavi/cache",
+    "/sdcard/baidunavi/log",
+    "/sdcard/baidunavi/plugin/tmp",
+    "/sdcard/baiduyuedu/.glide/thumbs",
+    "/sdcard/baidumap/cache",
+    "/sdcard/android/data/com.baidu.baike/files/log",
+    "/sdcard/android/data/com.downloading.main.baiduyundownload/cache",
+    "/sdcard/android/data/com.downloading.main.baiduyundownload/files/tbslog",
+    "/sdcard/android/data/com.downloading.main.baiduyundownload/files/backup",
+    "/sdcard/android/data/com.baidu.netdisk/cache/uil-images",
+    "/sdcard/android/data/com.baidu.k12edu/cache/splashImage",
+    "/sdcard/android/data/com.baidu.homework/files/splash",
+    "/sdcard/android/data/com.baidu.homework/files/tnetlogs",
+    "/sdcard/android/data/com.baidu.yuedu/files/download/.urecord_log_cache",
+    "/sdcard/android/com.downloading.main.baiduyundownload/cache",
+    "/sdcard/baidu/klog",
+    "/sdcard/baidu/.cuid",
+    "/sdcard/baidu/iknow",
+    "/sdcard/baidu/pushservice",
+    "/sdcard/baidu/Duer",
+    "/sdcard/baidu/tempdata",
+    "/sdcard/baidu/.tmp",
+    "/sdcard/baidu/common/.uuid",
+    "/sdcard/baidu/searchbox/landing",
+    "/sdcard/baidu/wallet/image_cache",
+    "/sdcard/baidu/iknow/entity",
+    "/sdcard/baidu/flyflow/.video_cache/com.baidu.searchbox",
+    "/sdcard/baidu/ime/skin_cache",
+    "/sdcard/baidu_music/offlinecache",
+    "/sdcard/baidu_music/splash_ad",
+    "/sdcard/baidu_music/image",
+    "/sdcard/netease/cloudmusic/Ad",
+    "/sdcard/netease/cloudmusic/Cache",
+    "/sdcard/netease/cloudmusic/ad/Image",
+    "/sdcard/netease/cloudmusic/cache/PlayList",
+    "/sdcard/netease/cloudmusic/cache/Lyric",
+    "/sdcard/netease/cloudmusic/cache/ImageCache",
+    "/sdcard/netease/cloudmusic/cache/Video",
+    "/sdcard/netease/cloudmusic/cache/UpgradeTemp",
+    "/sdcard/netease/cloudmusic/cache/MusicInfo",
+    "/sdcard/netease/cloudmusic/cache/NewApk",
+    "/sdcard/netease/cloudmusic/cache/ShortVideo",
+    "/sdcard/netease/cloudmusic/cache/image/Album"
+  ],
+  "rule_manifest": [
+    {
+      "path": "/sdcard/AiQQTask",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 1
+    },
+    {
+      "path": "/sdcard/.AppCenterWebBuffer_QQ",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 2
+    },
+    {
+      "path": "/sdcard/com.tencent.mobileqq",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 3
+    },
+    {
+      "path": "/sdcard/backup/com.tencent.mobileqq/miniqb.tbs.org",
+      "kind": "file",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 4
+    },
+    {
+      "path": "/sdcard/qqsecuredownload/.CacheCEImage",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 5
+    },
+    {
+      "path": "/sdcard/android/data/com.qq.ac.android",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 6
+    },
+    {
+      "path": "/sdcard/android/data/com.tencent.android.qqdownloader/files/tbslog",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 7
+    },
+    {
+      "path": "/sdcard/android/data/com.tencent.mobileqq/qzone/video_cache/local",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 8
+    },
+    {
+      "path": "/sdcard/android/data/com.tencent.mobileqq/files/tbslog",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 9
+    },
+    {
+      "path": "/sdcard/android/data/com.tencent.mobileqq/files/backup",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 10
+    },
+    {
+      "path": "/sdcard/android/data/com.tencent.mobileqq/Tencent/MobileQQ/chatpic",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 11
+    },
+    {
+      "path": "/sdcard/android/data/com.tencent.mobileqq/cache/tencent_sdk_download",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 12
+    },
+    {
+      "path": "/sdcard/android/data/com.qq.qcloud/files/tbslog",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 13
+    },
+    {
+      "path": "/sdcard/android/data/com.qq.ac.android/files/tbslog",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 14
+    },
+    {
+      "path": "/sdcard/tencent/QQ_business",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 15
+    },
+    {
+      "path": "/sdcard/tencent/QQ_Collection",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 16
+    },
+    {
+      "path": "/sdcard/tencent/mobileqqi/diskcache",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 17
+    },
+    {
+      "path": "/sdcard/tencent/wtlogin/com.tencent.mobileqq",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 18
+    },
+    {
+      "path": "/sdcard/tencent/com/tencent/mobileqq/avsdk/log",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 19
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/qbiz",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 20
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/funcall",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 21
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/thumb",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 22
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/.profilecard",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 23
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/.diy",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 24
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/font_info",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 25
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/custom_background",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 26
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/.signatureTemplate",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 27
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/err",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 28
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/.emojiSticker_v2.1",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 29
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/ptv_template",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 30
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/.pendant",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 31
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/.font_info",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 32
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/QWallet",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 33
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/doodle_template",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 34
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/.gift",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 35
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/AR_MAP",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 36
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/ar_model",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 37
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/ArkApp",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 38
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/head",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 39
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/RedPacket",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 40
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/early",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 41
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/ocr",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 42
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/hotpic",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 43
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/.emotionsm",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 44
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/shortvideo",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 45
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/bless",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 46
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/.apollo",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 47
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/res_precover",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 48
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/photo",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 49
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/iar",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 50
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/log",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 51
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/artfilter",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 52
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/PhotoPlus",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 53
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/poke",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 54
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/diskcache",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 55
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/msgpushnotify/msgnotify_pic",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 56
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/photo/ ",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 57
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/snooze/.gift",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 58
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/snooze/head/_hd",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 59
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/qav/beauty/SKINCOLOR",
+      "kind": "file",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 60
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/data/wifi",
+      "kind": "file",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 61
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/shortvideo/thumbs",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 62
+    },
+    {
+      "path": "/sdcard/tencent/mobileqq/portrait/HDAvatar",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 63
+    },
+    {
+      "path": "/sdcard/tencent/qqfile_recv/.trooptmp",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 64
+    },
+    {
+      "path": "/sdcard/tencent/qq_images/QQEditPic",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 65
+    },
+    {
+      "path": "/sdcard/tencent/msflogs/com/tencent/mobileqq",
+      "kind": "directory",
+      "app": "qq",
+      "source": "rules/qq.txt",
+      "line": 66
+    },
+    {
+      "path": "/sdcard/ucgamesasdk",
+      "kind": "directory",
+      "app": "uc",
+      "source": "rules/uc.txt",
+      "line": 1
+    },
+    {
+      "path": "/sdcard/ucgamesdk",
+      "kind": "directory",
+      "app": "uc",
+      "source": "rules/uc.txt",
+      "line": 2
+    },
+    {
+      "path": "/sdcard/UCNewsApp",
+      "kind": "directory",
+      "app": "uc",
+      "source": "rules/uc.txt",
+      "line": 3
+    },
+    {
+      "path": "/sdcard/backucup/com.UCMobile",
+      "kind": "directory",
+      "app": "uc",
+      "source": "rules/uc.txt",
+      "line": 4
+    },
+    {
+      "path": "/sdcard/android/data/com.uc.infoflow/files/tnetlogs",
+      "kind": "directory",
+      "app": "uc",
+      "source": "rules/uc.txt",
+      "line": 5
+    },
+    {
+      "path": "/sdcard/android/data/com.ucmobile/files/tnetlogs",
+      "kind": "directory",
+      "app": "uc",
+      "source": "rules/uc.txt",
+      "line": 6
+    },
+    {
+      "path": "/sdcard/ucdownloads/cache",
+      "kind": "directory",
+      "app": "uc",
+      "source": "rules/uc.txt",
+      "line": 7
+    },
+    {
+      "path": "/sdcard/ucdownloads/advertise",
+      "kind": "directory",
+      "app": "uc",
+      "source": "rules/uc.txt",
+      "line": 8
+    },
+    {
+      "path": "/sdcard/ucdownloads/screenshot/tmp",
+      "kind": "directory",
+      "app": "uc",
+      "source": "rules/uc.txt",
+      "line": 9
+    },
+    {
+      "path": "/sdcard/ucdownloads/video/.apolloCache",
+      "kind": "directory",
+      "app": "uc",
+      "source": "rules/uc.txt",
+      "line": 10
+    },
+    {
+      "path": "/sdcard/quark/tmp",
+      "kind": "directory",
+      "app": "quark",
+      "source": "rules/quark.txt",
+      "line": 1
+    },
+    {
+      "path": "/sdcard/quark/tmp",
+      "kind": "directory",
+      "app": "quark",
+      "source": "rules/quark.txt",
+      "line": 2
+    },
+    {
+      "path": "/sdcard/quark/tmp",
+      "kind": "directory",
+      "app": "quark",
+      "source": "rules/quark.txt",
+      "line": 3
+    },
+    {
+      "path": "/sdcard/quark/tmp",
+      "kind": "directory",
+      "app": "quark",
+      "source": "rules/quark.txt",
+      "line": 4
+    },
+    {
+      "path": "/sdcard/WeiboInternational",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 1
+    },
+    {
+      "path": "/sdcard/sina/weiboheadline",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 2
+    },
+    {
+      "path": "/sdcard/sina/weibo/.prenew",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 3
+    },
+    {
+      "path": "/sdcard/sina/weibo/.wbadcache",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 4
+    },
+    {
+      "path": "/sdcard/sina/weibo/download",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 5
+    },
+    {
+      "path": "/sdcard/sina/weibo/.weibo_video_cache_new",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 6
+    },
+    {
+      "path": "/sdcard/sina/weibo/.log",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 7
+    },
+    {
+      "path": "/sdcard/sina/weibo/.appinfos",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 8
+    },
+    {
+      "path": "/sdcard/sina/weibo/WeiyouMenuList",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 9
+    },
+    {
+      "path": "/sdcard/sina/weibo/page",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 10
+    },
+    {
+      "path": "/sdcard/sina/weibo/.weibo_ad_universal_cache",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 11
+    },
+    {
+      "path": "/sdcard/sina/weibo/.weibo_video_cache",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 12
+    },
+    {
+      "path": "/sdcard/sina/weibo/msgcatch",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 13
+    },
+    {
+      "path": "/sdcard/sina/weibo/traffic",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 14
+    },
+    {
+      "path": "/sdcard/sina/weibo/ChannelList",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 15
+    },
+    {
+      "path": "/sdcard/sina/weibo/.applogs",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 16
+    },
+    {
+      "path": "/sdcard/sina/weibo/.weibo_pic_new",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 17
+    },
+    {
+      "path": "/sdcard/sina/weibo/.portraitnew",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 18
+    },
+    {
+      "path": "/sdcard/sina/weibo/page/cardlist",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 19
+    },
+    {
+      "path": "/sdcard/sina/weiboheadline/.weibo_video",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 20
+    },
+    {
+      "path": "/sdcard/sina/weiboheadline/log",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 21
+    },
+    {
+      "path": "/sdcard/android/data/.log/com.sina.weibo",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 22
+    },
+    {
+      "path": "/sdcard/weibointernational/weiboIntl_cache",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 23
+    },
+    {
+      "path": "/sdcard/weibointernational/Cache",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 24
+    },
+    {
+      "path": "/sdcard/weibointernational/patch",
+      "kind": "directory",
+      "app": "weibo",
+      "source": "rules/weibo.txt",
+      "line": 25
+    },
+    {
+      "path": "/sdcard/autonavi",
+      "kind": "directory",
+      "app": "autonavi",
+      "source": "rules/autonavi.txt",
+      "line": 1
+    },
+    {
+      "path": "/sdcard/autonavi/location",
+      "kind": "directory",
+      "app": "autonavi",
+      "source": "rules/autonavi.txt",
+      "line": 2
+    },
+    {
+      "path": "/sdcard/autonavi/splash",
+      "kind": "directory",
+      "app": "autonavi",
+      "source": "rules/autonavi.txt",
+      "line": 3
+    },
+    {
+      "path": "/sdcard/autonavi/httpcache",
+      "kind": "directory",
+      "app": "autonavi",
+      "source": "rules/autonavi.txt",
+      "line": 4
+    },
+    {
+      "path": "/sdcard/autonavi/guide",
+      "kind": "directory",
+      "app": "autonavi",
+      "source": "rules/autonavi.txt",
+      "line": 5
+    },
+    {
+      "path": "/sdcard/autonavi/data/mapcache",
+      "kind": "directory",
+      "app": "autonavi",
+      "source": "rules/autonavi.txt",
+      "line": 6
+    },
+    {
+      "path": "/sdcard/autonavi/data/navi/compile_v2/chn/ackor_offline.log",
+      "kind": "file",
+      "app": "autonavi",
+      "source": "rules/autonavi.txt",
+      "line": 7
+    },
+    {
+      "path": "/sdcard/autonavi/httpcache/image",
+      "kind": "directory",
+      "app": "autonavi",
+      "source": "rules/autonavi.txt",
+      "line": 8
+    },
+    {
+      "path": "/sdcard/android/data/com.xingin.xhs/cache",
+      "kind": "directory",
+      "app": "xhs",
+      "source": "rules/xhs.txt",
+      "line": 1
+    },
+    {
+      "path": "/sdcard/android/data/com.xingin.xhs/files",
+      "kind": "directory",
+      "app": "xhs",
+      "source": "rules/xhs.txt",
+      "line": 2
+    },
+    {
+      "path": "/sdcard/android/media/com.xingin.xhs",
+      "kind": "directory",
+      "app": "xhs",
+      "source": "rules/xhs.txt",
+      "line": 3
+    },
+    {
+      "path": "/sdcard/QQBrowser",
+      "kind": "directory",
+      "app": "qqbrowser",
+      "source": "rules/qqbrowser.txt",
+      "line": 1
+    },
+    {
+      "path": "/sdcard/qqbrowser/.VideoPics",
+      "kind": "directory",
+      "app": "qqbrowser",
+      "source": "rules/qqbrowser.txt",
+      "line": 2
+    },
+    {
+      "path": "/sdcard/qqbrowser/.Application",
+      "kind": "directory",
+      "app": "qqbrowser",
+      "source": "rules/qqbrowser.txt",
+      "line": 3
+    },
+    {
+      "path": "/sdcard/qqbrowser/视频",
+      "kind": "directory",
+      "app": "qqbrowser",
+      "source": "rules/qqbrowser.txt",
+      "line": 4
+    },
+    {
+      "path": "/sdcard/qqbrowser/.TempShare",
+      "kind": "directory",
+      "app": "qqbrowser",
+      "source": "rules/qqbrowser.txt",
+      "line": 5
+    },
+    {
+      "path": "/sdcard/qqbrowser/.pushLog",
+      "kind": "directory",
+      "app": "qqbrowser",
+      "source": "rules/qqbrowser.txt",
+      "line": 6
+    },
+    {
+      "path": "/sdcard/qqbrowser/.cache",
+      "kind": "directory",
+      "app": "qqbrowser",
+      "source": "rules/qqbrowser.txt",
+      "line": 7
+    },
+    {
+      "path": "/sdcard/qqbrowser/.ReaderTemp",
+      "kind": "directory",
+      "app": "qqbrowser",
+      "source": "rules/qqbrowser.txt",
+      "line": 8
+    },
+    {
+      "path": "/sdcard/qqbrowser/.logTmp",
+      "kind": "directory",
+      "app": "qqbrowser",
+      "source": "rules/qqbrowser.txt",
+      "line": 9
+    },
+    {
+      "path": "/sdcard/BaiduMapSDK",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 1
+    },
+    {
+      "path": "/sdcard/BaiduWM",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 2
+    },
+    {
+      "path": "/sdcard/BaiduNavi",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 3
+    },
+    {
+      "path": "/sdcard/com.baidu.appsearch.log.lck",
+      "kind": "file",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 4
+    },
+    {
+      "path": "/sdcard/com.baidu.appsearch_baseStatistics.log.lck",
+      "kind": "file",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 5
+    },
+    {
+      "path": "/sdcard/com.baidu.appsearch_bdservice_v1.log.lck",
+      "kind": "file",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 6
+    },
+    {
+      "path": "/sdcard/com.baidu.video",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 7
+    },
+    {
+      "path": "/sdcard/sdk_kuang_baidu_tieba",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 8
+    },
+    {
+      "path": "/sdcard/.com.baidu.homework",
+      "kind": "file",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 9
+    },
+    {
+      "path": "/sdcard/com.baidu.appsearch_baseStatistics.log",
+      "kind": "file",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 10
+    },
+    {
+      "path": "/sdcard/com.baidu.appsearch_gptInstaller.log.lck",
+      "kind": "file",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 11
+    },
+    {
+      "path": "/sdcard/com.baidu.appsearch.log",
+      "kind": "file",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 12
+    },
+    {
+      "path": "/sdcard/BaiduYuedu",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 13
+    },
+    {
+      "path": "/sdcard/com.baidu.appsearch_gptInstaller.log",
+      "kind": "file",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 14
+    },
+    {
+      "path": "/sdcard/baiduTTS",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 15
+    },
+    {
+      "path": "/sdcard/.baiduCameraSdk",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 16
+    },
+    {
+      "path": "/sdcard/com.baidu.appsearch_bdservice_v1.log",
+      "kind": "file",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 17
+    },
+    {
+      "path": "/sdcard/com.baidu.video/guid",
+      "kind": "file",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 18
+    },
+    {
+      "path": "/sdcard/backup/com.downloading.main.baiduyundownload",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 19
+    },
+    {
+      "path": "/sdcard/baidunavi/tmp",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 20
+    },
+    {
+      "path": "/sdcard/baidunavi/cache",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 21
+    },
+    {
+      "path": "/sdcard/baidunavi/log",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 22
+    },
+    {
+      "path": "/sdcard/baidunavi/plugin/tmp",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 23
+    },
+    {
+      "path": "/sdcard/baiduyuedu/.glide/thumbs",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 24
+    },
+    {
+      "path": "/sdcard/baidumap/cache",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 25
+    },
+    {
+      "path": "/sdcard/android/data/com.baidu.baike/files/log",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 26
+    },
+    {
+      "path": "/sdcard/android/data/com.downloading.main.baiduyundownload/cache",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 27
+    },
+    {
+      "path": "/sdcard/android/data/com.downloading.main.baiduyundownload/files/tbslog",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 28
+    },
+    {
+      "path": "/sdcard/android/data/com.downloading.main.baiduyundownload/files/backup",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 29
+    },
+    {
+      "path": "/sdcard/android/data/com.baidu.netdisk/cache/uil-images",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 30
+    },
+    {
+      "path": "/sdcard/android/data/com.baidu.k12edu/cache/splashImage",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 31
+    },
+    {
+      "path": "/sdcard/android/data/com.baidu.homework/files/splash",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 32
+    },
+    {
+      "path": "/sdcard/android/data/com.baidu.homework/files/tnetlogs",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 33
+    },
+    {
+      "path": "/sdcard/android/data/com.baidu.yuedu/files/download/.urecord_log_cache",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 34
+    },
+    {
+      "path": "/sdcard/android/com.downloading.main.baiduyundownload/cache",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 35
+    },
+    {
+      "path": "/sdcard/baidu/klog",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 36
+    },
+    {
+      "path": "/sdcard/baidu/.cuid",
+      "kind": "file",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 37
+    },
+    {
+      "path": "/sdcard/baidu/iknow",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 38
+    },
+    {
+      "path": "/sdcard/baidu/pushservice",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 39
+    },
+    {
+      "path": "/sdcard/baidu/Duer",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 40
+    },
+    {
+      "path": "/sdcard/baidu/tempdata",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 41
+    },
+    {
+      "path": "/sdcard/baidu/.tmp",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 42
+    },
+    {
+      "path": "/sdcard/baidu/common/.uuid",
+      "kind": "file",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 43
+    },
+    {
+      "path": "/sdcard/baidu/searchbox/landing",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 44
+    },
+    {
+      "path": "/sdcard/baidu/wallet/image_cache",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 45
+    },
+    {
+      "path": "/sdcard/baidu/iknow/entity",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 46
+    },
+    {
+      "path": "/sdcard/baidu/flyflow/.video_cache/com.baidu.searchbox",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 47
+    },
+    {
+      "path": "/sdcard/baidu/ime/skin_cache",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 48
+    },
+    {
+      "path": "/sdcard/baidu_music/offlinecache",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 49
+    },
+    {
+      "path": "/sdcard/baidu_music/splash_ad",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 50
+    },
+    {
+      "path": "/sdcard/baidu_music/image",
+      "kind": "directory",
+      "app": "baidu",
+      "source": "rules/baidu.txt",
+      "line": 51
+    },
+    {
+      "path": "/sdcard/netease/cloudmusic/Ad",
+      "kind": "directory",
+      "app": "cloudmusic",
+      "source": "rules/cloudmusic.txt",
+      "line": 1
+    },
+    {
+      "path": "/sdcard/netease/cloudmusic/Cache",
+      "kind": "directory",
+      "app": "cloudmusic",
+      "source": "rules/cloudmusic.txt",
+      "line": 2
+    },
+    {
+      "path": "/sdcard/netease/cloudmusic/ad/Image",
+      "kind": "directory",
+      "app": "cloudmusic",
+      "source": "rules/cloudmusic.txt",
+      "line": 3
+    },
+    {
+      "path": "/sdcard/netease/cloudmusic/cache/PlayList",
+      "kind": "directory",
+      "app": "cloudmusic",
+      "source": "rules/cloudmusic.txt",
+      "line": 4
+    },
+    {
+      "path": "/sdcard/netease/cloudmusic/cache/Lyric",
+      "kind": "directory",
+      "app": "cloudmusic",
+      "source": "rules/cloudmusic.txt",
+      "line": 5
+    },
+    {
+      "path": "/sdcard/netease/cloudmusic/cache/ImageCache",
+      "kind": "directory",
+      "app": "cloudmusic",
+      "source": "rules/cloudmusic.txt",
+      "line": 6
+    },
+    {
+      "path": "/sdcard/netease/cloudmusic/cache/Video",
+      "kind": "directory",
+      "app": "cloudmusic",
+      "source": "rules/cloudmusic.txt",
+      "line": 7
+    },
+    {
+      "path": "/sdcard/netease/cloudmusic/cache/UpgradeTemp",
+      "kind": "directory",
+      "app": "cloudmusic",
+      "source": "rules/cloudmusic.txt",
+      "line": 8
+    },
+    {
+      "path": "/sdcard/netease/cloudmusic/cache/MusicInfo",
+      "kind": "directory",
+      "app": "cloudmusic",
+      "source": "rules/cloudmusic.txt",
+      "line": 9
+    },
+    {
+      "path": "/sdcard/netease/cloudmusic/cache/NewApk",
+      "kind": "directory",
+      "app": "cloudmusic",
+      "source": "rules/cloudmusic.txt",
+      "line": 10
+    },
+    {
+      "path": "/sdcard/netease/cloudmusic/cache/ShortVideo",
+      "kind": "directory",
+      "app": "cloudmusic",
+      "source": "rules/cloudmusic.txt",
+      "line": 11
+    },
+    {
+      "path": "/sdcard/netease/cloudmusic/cache/image/Album",
+      "kind": "directory",
+      "app": "cloudmusic",
+      "source": "rules/cloudmusic.txt",
+      "line": 12
+    }
+  ],
+  "rule_count": 188,
+  "max_scan_entries": 50000,
+  "max_results": 500,
+  "hash_files": false
+}

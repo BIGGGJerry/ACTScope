@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "run_id": "run-1",
+      "instance_id": "instance-1",
+      "build_id": "probe-debug",
+      "sequence": 1,
+      "sampled_at_device": 12000,
+      "received_at_server": 12100,
+      "clock_offset_ms": 0,
+      "clock_uncertainty_ms": 50,
+      "clock_sync_age_ms": 100,
+      "boot_id": "boot-1",
+      "elapsed_realtime_ms": 11000,
+      "a11y_enabled": false,
+      "a11y_sampled_at": 12000,
+      "a11y_component": "org.example/.ProbeA11y"
+    },
+    {
+      "run_id": "run-1",
+      "instance_id": "instance-1",
+      "build_id": "probe-debug",
+      "sequence": 2,
+      "sampled_at_device": 13000,
+      "received_at_server": 13100,
+      "clock_offset_ms": 0,
+      "clock_uncertainty_ms": 50,
+      "clock_sync_age_ms": 100,
+      "boot_id": "boot-1",
+      "elapsed_realtime_ms": 12000,
+      "a11y_enabled": false,
+      "a11y_sampled_at": 13000,
+      "a11y_component": "org.example/.ProbeA11y"
+    }
+  ],
+  "session_end_server_ms": 10000,
+  "expected_instance_id": "instance-1",
+  "expected_run_id": "run-1",
+  "expected_build_id": "probe-debug",
+  "baseline_telemetry_verified": true,
+  "initial_a11y_enabled": true,
+  "reauthorized": false,
+  "a11y_component": "org.example/.ProbeA11y",
+  "min_fresh_events": 2,
+  "clock_max_uncertainty_ms": 2000,
+  "_example": {
+    "synthetic": true,
+    "failure_mode": "F7",
+    "expected_status": "not_observed",
+    "notice": "仅作离线判据回归样例，不是实测结果。"
+  }
+}

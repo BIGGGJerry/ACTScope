@@ -1,0 +1,21 @@
+{
+  "platform": "Alltesting",
+  "adapter": "manual_configured",
+  "status": "unverified_template",
+  "capabilities": {
+    "remote_adb": null,
+    "wireless_debugging": null,
+    "shizuku": null,
+    "a11y": null,
+    "reacquire_device": null,
+    "install_routes": ["platform_ui", "adb"]
+  },
+  "adb": {"binary": "adb", "serial": "REPLACE_WITH_VERIFIED_PLATFORM_SERIAL", "timeout_s": 15},
+  "manual_steps": {
+    "deploy_app": "通过 Alltesting 当前设备会话的应用安装入口提交自有 APK，保存任务编号与检查完成后的状态。",
+    "connect_debug": "使用当前平台提供的调试连接信息，核实 shell 访问后填写 remote_adb=true 和 serial；不存在的能力填 false。",
+    "end_session": "通过平台会话释放操作归还设备，保存确认结束的页面或日志，再登记 session_ended。",
+    "reacquire_device": "通过平台设备列表人工申请并核对设备身份；如无法核实同机，相关结论保持无法判定。",
+    "prepare_device_probe": "人工确认无线调试/Shizuku/无障碍授权条件，记录实际授权状态，不把配置模板视为实测结果。"
+  }
+}

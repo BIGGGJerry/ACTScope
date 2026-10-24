@@ -1,0 +1,10 @@
+FOLDER.ucgamesasdk
+FOLDER.ucgamesdk
+FOLDER.UCNewsApp
+FOLDER.backucup/FOLDER.com.UCMobile
+FOLDER.android/FOLDER.data/FOLDER.com.uc.infoflow/FOLDER.files/FOLDER.tnetlogs
+FOLDER.android/FOLDER.data/FOLDER.com.ucmobile/FOLDER.files/FOLDER.tnetlogs
+FOLDER.ucdownloads/FOLDER.cache
+FOLDER.ucdownloads/FOLDER.advertise
+FOLDER.ucdownloads/FOLDER.screenshot/FOLDER.tmp
+FOLDER.ucdownloads/FOLDER.video/FOLDER..apolloCache

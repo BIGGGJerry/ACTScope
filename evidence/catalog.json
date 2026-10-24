@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "title": "ACTScope — Supporting Evidence",
+  "items": [
+    {
+      "id": "appgallery-installation-hijacking",
+      "platform": "AppGallery Connect",
+      "finding": "F1 — Insecure Installation Artifact Handling",
+      "kind": "video",
+      "title": "1. Installation hijacking (F1)",
+      "caption": "Demonstration of installation hijacking on AppGallery Connect.",
+      "file": "videos/appgellery_hijack.mov",
+      "capture_date": null,
+      "notes": null,
+      "playback_file": "videos/appgellery_hijack.mp4"
+    },
+    {
+      "id": "xiaomi-installation-hijacking",
+      "platform": "Xiaomi Cloud Testing Platform",
+      "finding": "F1 — Insecure Installation Artifact Handling",
+      "kind": "image",
+      "title": "2. Successful installation hijacking (F1)",
+      "caption": "Successful installation hijacking on Xiaomi Cloud Testing Platform, with the application icon and installation logs shown.",
+      "file": "images/xiaomi.jpeg",
+      "capture_date": null,
+      "notes": null
+    },
+    {
+      "id": "aws-installation-path-discovery",
+      "platform": "AWS Device Farm",
+      "finding": "F1 — Insecure Installation Artifact Handling",
+      "kind": "image",
+      "title": "3. Installation-path discovery (F1)",
+      "caption": "The on-device probe identifies an APK staging path on AWS Device Farm; this image shows the discovery stage.",
+      "file": "images/aws-hijack1.png",
+      "capture_date": null,
+      "notes": null
+    },
+    {
+      "id": "appgallery-network-proxy-interference",
+      "platform": "AppGallery Connect",
+      "finding": "F3 — Over-privileged ADB",
+      "kind": "image",
+      "title": "4. Network-proxy interference (F3)",
+      "caption": "Shell-based proxy interference on AppGallery Connect, shown alongside a browser connectivity error.",
+      "file": "images/appgellery_proxy.png",
+      "capture_date": null,
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+plugins { alias(libs.plugins.android.application) }
+def probeDigest = java.security.MessageDigest.getInstance('SHA-256')
+fileTree('src/main').files.sort { it.path }.each { probeDigest.update(it.bytes) }
+probeDigest.update(file('build.gradle').bytes)
+probeDigest.update((project.findProperty('probeApplicationId') ?: 'org.actscope.probe').getBytes('UTF-8'))
+def probeBuild = project.findProperty('probeBuildId') ?: ('actscope-2.7-' + probeDigest.digest().encodeHex().toString().take(12))
+if (!(probeBuild ==~ /[A-Za-z0-9._-]{1,128}/)) throw new GradleException('Invalid probeBuildId')
+android {
+    namespace 'tv.danmaku.bili'
+    compileSdk 35
+    defaultConfig {
+        applicationId (project.findProperty('probeApplicationId') ?: 'org.actscope.probe')
+        minSdk 26
+        targetSdk 34
+        versionCode 10
+        versionName '2.7'
+        buildConfigField 'String', 'PROBE_BUILD_ID', '"' + probeBuild + '"'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    buildFeatures { buildConfig true; aidl true }
+    signingConfigs { debug { storeFile file("${rootDir}/.build-home/android/debug.keystore") } }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_11; targetCompatibility JavaVersion.VERSION_11 }
+    testOptions { unitTests.returnDefaultValues = true; unitTests.all { systemProperty 'actscope.assets', file('src/main/assets').absolutePath; systemProperty 'actscope.manifest', file('src/main/AndroidManifest.xml').absolutePath; systemProperty 'actscope.resources', file('src/main/res').absolutePath } }
+}
+dependencies {
+    implementation 'androidx.work:work-runtime:2.10.0'
+    implementation 'dev.rikka.shizuku:api:13.1.5'
+    implementation 'dev.rikka.shizuku:provider:13.1.5'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20240303'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test:runner:1.6.2'
+}

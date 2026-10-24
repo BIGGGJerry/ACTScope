@@ -1,0 +1,15 @@
+{
+  "platform": "Synthetic demonstration (no platform contacted)",
+  "adapter": "manual_configured",
+  "status": "offline_demo_only",
+  "capabilities": {
+    "remote_adb": false,
+    "wireless_debugging": false,
+    "shizuku": false,
+    "a11y": false,
+    "reacquire_device": false,
+    "install_routes": []
+  },
+  "adb": {"binary": "adb", "serial": "REPLACE_WITH_VERIFIED_PLATFORM_SERIAL", "timeout_s": 15},
+  "manual_steps": {}
+}

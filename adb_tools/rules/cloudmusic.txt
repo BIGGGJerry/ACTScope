@@ -1,0 +1,12 @@
+FOLDER.netease/FOLDER.cloudmusic/FOLDER.Ad
+FOLDER.netease/FOLDER.cloudmusic/FOLDER.Cache
+FOLDER.netease/FOLDER.cloudmusic/FOLDER.ad/FOLDER.Image
+FOLDER.netease/FOLDER.cloudmusic/FOLDER.cache/FOLDER.PlayList
+FOLDER.netease/FOLDER.cloudmusic/FOLDER.cache/FOLDER.Lyric
+FOLDER.netease/FOLDER.cloudmusic/FOLDER.cache/FOLDER.ImageCache
+FOLDER.netease/FOLDER.cloudmusic/FOLDER.cache/FOLDER.Video
+FOLDER.netease/FOLDER.cloudmusic/FOLDER.cache/FOLDER.UpgradeTemp
+FOLDER.netease/FOLDER.cloudmusic/FOLDER.cache/FOLDER.MusicInfo
+FOLDER.netease/FOLDER.cloudmusic/FOLDER.cache/FOLDER.NewApk
+FOLDER.netease/FOLDER.cloudmusic/FOLDER.cache/FOLDER.ShortVideo
+FOLDER.netease/FOLDER.cloudmusic/FOLDER.cache/FOLDER.image/FOLDER.Album

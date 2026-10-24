@@ -1,0 +1,32 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'org.actscope.f1fixture'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'org.actscope.f1fixture'
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+    }
+    buildFeatures { buildConfig true }
+    flavorDimensions += 'role'
+    productFlavors {
+        original {
+            dimension 'role'
+            versionName '1.0-A'
+            buildConfigField 'String', 'FIXTURE_ID', '"ACTSCOPE-F1-A"'
+            buildConfigField 'String', 'ROLE', '"A"'
+            resValue 'string', 'app_name', 'ACTScope F1 A'
+        }
+        replacement {
+            dimension 'role'
+            versionName '1.0-B'
+            buildConfigField 'String', 'FIXTURE_ID', '"ACTSCOPE-F1-B"'
+            buildConfigField 'String', 'ROLE', '"B"'
+            resValue 'string', 'app_name', 'ACTScope F1 B'
+        }
+    }
+    signingConfigs { debug { storeFile file("${rootDir}/.build-home/android/debug.keystore") } }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_11; targetCompatibility JavaVersion.VERSION_11 }
+}

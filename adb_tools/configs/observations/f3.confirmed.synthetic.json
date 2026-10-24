@@ -1,0 +1,25 @@
+{
+  "cases": [
+    {
+      "id": "reboot",
+      "kind": "reboot",
+      "command": "adb -s controlled-device reboot",
+      "baseline_healthy": true,
+      "command_executed": true,
+      "attribution_verified": true,
+      "observation_complete": true,
+      "observed_seconds": 300,
+      "min_observation_seconds": 300,
+      "device_unavailable": true,
+      "normal_recovery_failed": true,
+      "recovery_evidence": "evidence/platform-recovery-attempts.json",
+      "administrator_recovery_required": true
+    }
+  ],
+  "_example": {
+    "synthetic": true,
+    "failure_mode": "F3",
+    "expected_status": "confirmed",
+    "notice": "仅作离线判据回归样例，不是实测结果。"
+  }
+}

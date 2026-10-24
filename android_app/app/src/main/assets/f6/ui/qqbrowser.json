@@ -1,0 +1,92 @@
+{
+    "views": {
+        "welcome_layer": {
+            "text":"软件许可协议和隐私政策",
+            "class": ".*TextView"
+        },
+        "welcome_button":{
+            "text": "确认",
+            "class": ".*Button"
+        },
+        "more":{
+            "content_desc":"菜单",
+            "class":".*FrameLayout"
+        },
+        "me_button":{
+            "text":"我的",
+            "class":".*TextView"
+        },
+        "multiwindow":{
+            "resource_id":".*right_top_multi_window",
+            "class":".*TextView"
+        },
+        "login":{
+            "text":"立即登录",
+            "resource_id":".*title",
+            "class":".*TextView"
+        },
+        "login_button":{
+            "content_desc":"关闭按钮",
+            "resource_id":".*btn",
+            "class":".*ImageView"
+        },
+        "history":{
+            "content_desc":"历史记录按钮.*",
+            "class":".*View"
+        }
+
+    },
+    "states": {
+        "welcome_state": {
+            "views": ["welcome_layer", "welcome_button"]
+        },
+        "main_state":{
+            "views": ["me_button","multiwindow"]
+        },
+        "login_state":{
+            "views":["login","login_button"]
+        },
+        "me_state":{
+            "views":["history"]
+        }
+    },
+    "operations": {
+        "welcome_operation": [
+            {
+                "event_type": "touch",
+                "target_view": "welcome_button"
+            },
+            {
+                "event_type":"exit"
+            }
+        ],
+        "main_operation":[
+            {
+                "event_type":"touch",
+                "target_view":"me_button"
+            }
+        ],
+        "login_operation":[
+            {
+                "event_type":"touch",
+                "target_view":"login_button"
+            }
+        ],
+        "history_operation":[
+            {
+                "event_type":"touch",
+                "target_view":"history"
+            },
+            {
+                "event_type":"exit"
+            }
+        ]
+
+    },
+    "main": {
+        "main_state":["main_operation"],
+        "welcome_state": ["welcome_operation"],
+        "me_state":["history_operation"],
+        "login_state":["login_operation"]
+    }
+}

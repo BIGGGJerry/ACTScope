@@ -1,0 +1,26 @@
+{
+  "files": [
+    {
+      "path": null,
+      "kind": null,
+      "exists": null,
+      "size": null,
+      "readable": null,
+      "expected_cleanup": null,
+      "attributed_to_prior_session": null,
+      "provenance_evidence": null,
+      "public_resource": null
+    }
+  ],
+  "ui": [],
+  "file_scan_complete": null,
+  "ui_scan_complete": null,
+  "access_errors": [],
+  "notes": "填入真实观测及证据；null表示未知，不等于false。此模板不代表完成实验。",
+  "_example": {
+    "synthetic": true,
+    "failure_mode": "F6",
+    "expected_status": "inconclusive",
+    "notice": "空白输入模板，不是平台实测结果。复制并记录真实证据后移除此元数据。"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "id": null,
+      "kind": null,
+      "command": null,
+      "baseline_healthy": null,
+      "command_executed": null,
+      "attribution_verified": null,
+      "observation_complete": null,
+      "observed_seconds": null,
+      "min_observation_seconds": null,
+      "device_unavailable": null,
+      "normal_recovery_failed": null,
+      "recovery_evidence": null,
+      "administrator_recovery_required": null
+    }
+  ],
+  "notes": "填入真实观测及证据；null表示未知，不等于false。此模板不代表完成实验。",
+  "_example": {
+    "synthetic": true,
+    "failure_mode": "F3",
+    "expected_status": "inconclusive",
+    "notice": "空白输入模板，不是平台实测结果。复制并记录真实证据后移除此元数据。"
+  }
+}

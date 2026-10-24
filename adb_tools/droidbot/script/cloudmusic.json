@@ -1,0 +1,51 @@
+{
+    "views": {
+        "welcome_layer": {
+            "text":"用户条款和隐私政策提示",
+            "class": ".*TextView"
+        },
+        "welcome_button":{
+            "text": "同意",
+            "class": ".*TextView"
+        },
+        "me_button":{
+            "text":"我的",
+            "resource_id":".*desc",
+            "class":".*TextView"
+        }
+
+    },
+    "states": {
+        "welcome_state": {
+            "views": ["welcome_layer", "welcome_button"]
+        },
+        "main_state":{
+            "views": ["me_button"]
+        }
+    },
+    "operations": {
+        "welcome_operation": [
+            {
+                "event_type": "touch",
+                "target_view": "welcome_button"
+            },
+            {
+                "event_type":"exit"
+            }
+        ],
+        "main_operation":[
+            {
+                "event_type":"touch",
+                "target_view":"me_button"
+            },
+            {
+                "event_type":"exit"
+            }
+        ]
+
+    },
+    "main": {
+        "main_state":["main_operation"],
+        "welcome_state": ["welcome_operation"]
+    }
+}

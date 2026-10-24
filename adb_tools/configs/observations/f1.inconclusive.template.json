@@ -1,0 +1,20 @@
+{
+  "normal_baseline_verified": null,
+  "original_sha256": null,
+  "replacement_sha256": null,
+  "installed_sha256": null,
+  "original_install_task_id": null,
+  "observed_install_task_id": null,
+  "replacement_attempted": null,
+  "install_completed": null,
+  "legitimate_transform_excluded": null,
+  "installed_identity_verified": null,
+  "observation_complete": null,
+  "notes": "填入真实观测及证据；null表示未知，不等于false。此模板不代表完成实验。",
+  "_example": {
+    "synthetic": true,
+    "failure_mode": "F1",
+    "expected_status": "inconclusive",
+    "notice": "空白输入模板，不是平台实测结果。复制并记录真实证据后移除此元数据。"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "session_end_server_ms": 1000,
+  "session_end_confirmed": true,
+  "baseline": {
+    "serial": "same-device",
+    "command": "shell date",
+    "success": true
+  },
+  "probe": {
+    "serial": "same-device",
+    "command": "shell echo challenge-after-end",
+    "issued_at_server_ms": 1001,
+    "completed_at_server_ms": 1005,
+    "success": true,
+    "device_response_verified": true,
+    "old_authorization": true,
+    "reauthorized": false
+  },
+  "_example": {
+    "synthetic": true,
+    "failure_mode": "F4",
+    "expected_status": "confirmed",
+    "notice": "仅作离线判据回归样例，不是实测结果。"
+  }
+}

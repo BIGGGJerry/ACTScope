@@ -1,0 +1,26 @@
+{
+  "session_end_server_ms": null,
+  "session_end_confirmed": null,
+  "baseline": {
+    "serial": null,
+    "command": null,
+    "success": null
+  },
+  "probe": {
+    "serial": null,
+    "command": null,
+    "issued_at_server_ms": null,
+    "completed_at_server_ms": null,
+    "success": null,
+    "device_response_verified": null,
+    "old_authorization": null,
+    "reauthorized": null
+  },
+  "notes": "填入真实观测及证据；null表示未知，不等于false。此模板不代表完成实验。",
+  "_example": {
+    "synthetic": true,
+    "failure_mode": "F4",
+    "expected_status": "inconclusive",
+    "notice": "空白输入模板，不是平台实测结果。复制并记录真实证据后移除此元数据。"
+  }
+}

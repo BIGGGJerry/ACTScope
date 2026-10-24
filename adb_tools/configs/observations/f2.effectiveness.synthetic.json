@@ -1,0 +1,32 @@
+{
+  "sample_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "benign_baseline_ok": true,
+  "maliciousness": {
+    "confirmed": true,
+    "category": "malware",
+    "basis": "Controlled labelled research corpus"
+  },
+  "channels": [
+    {
+      "name": "official",
+      "sample_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "context_id": "same-device-image-account",
+      "official": true,
+      "applicable": true,
+      "outcome": "accepted",
+      "security_reason": false,
+      "prohibited_state_reached": true,
+      "installed_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "identity_verified": true,
+      "check_completed": true,
+      "observation_window_seconds": 60,
+      "completed": true
+    }
+  ],
+  "_example": {
+    "synthetic": true,
+    "failure_mode": "F2",
+    "expected_status": "confirmed",
+    "notice": "仅作离线判据回归样例，不是实测结果。"
+  }
+}
