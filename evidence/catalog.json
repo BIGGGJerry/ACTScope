@@ -8,7 +8,7 @@
       "finding": "F1 — Insecure Installation Artifact Handling",
       "kind": "video",
       "title": "1. Installation hijacking (F1)",
-      "caption": "Demonstration of installation hijacking on AppGallery Connect (silent video).",
+      "caption": "Demonstration of installation hijacking on AppGallery Connect.",
       "file": "videos/appgellery_hijack_silent.mov",
       "capture_date": null,
       "notes": null,
